@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quizstyle.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz Page</h1>
+  </header>
+  <main>
+    <form action="results.html" method="GET">
+
+      <div class="question">
+        <p>1. What is the capital of France?</p>
+        <label><input type="radio" name="q1" value="Berlin" required> Berlin </label><br>
+        <label><input type="radio" name="q1" value="Paris"> Paris</label><br>
+        <label><input type="radio" name="q1" value="Madrid"> Madrid</label>
+      </div>
+
+      <div class="question">
+        <p>2. Which planet is known as the Red Planet?</p>
+        <label><input type="radio" name="q2" value="Earth" required> Earth</label><br>
+        <label><input type="radio" name="q2" value="Mars"> Mars</label><br>
+        <label><input type="radio" name="q2" value="Jupiter"> Jupiter</label>
+      </div>
+
+      <div class="question">
+        <p>3. Who wrote 'Romeo and Juliet'?</p>
+        <label><input type="radio" name="q3" value="Shakespeare" required> Shakespeare</label><br>
+        <label><input type="radio" name="q3" value="Hemingway"> Hemingway</label><br>
+        <label><input type="radio" name="q3" value="Tolkien"> Tolkien</label>
+      </div>
+
+      <div class="question">
+        <p>4. Identify the Musician</p>
+        <img src="drake.jpeg" alt="Musician" class="question-image">
+        <label><input type="radio" name="q4" value="Kendrick Lamar" required> Kendrick Lamar </label><br>
+        <label><input type="radio" name="q4" value="Michael Jackson"> Michael Jackson</label><br>
+        <label><input type="radio" name="q4" value="Drake"> Drake</label>
+      </div>
+
+      <div class="question">
+        <p>5. Watch the video and answer the question:</p>
+        <div class="video-container">
+          <video controls>
+            <source src="monkey.mp4" type="video/mp4">
+            </video>
+        </div>
+        <p>What is the animal shown in the video?</p>
+        <label><input type="radio" name="q5" value="Chimpanzee" required> Chimpanzee </label><br>
+        <label><input type="radio" name="q5" value="Gorilla"> Gorilla </label><br>
+        <label><input type="radio" name="q5" value="Chimpanzene Bananini"> Chimpanzene Bananini </label>
+      </div>
+
+      <div class="question">
+        <p>6. Which of the following is NOT a fruit? </p>
+        <label><input type="radio" name="q6" value="Rhubarb" required> Rhubarb </label><br>
+        <label><input type="radio" name="q6" value="Tomatoes"> Tomatoes</label><br>
+        <label><input type="radio" name="q6" value="Avocados"> Avocados</label>
+      </div>
+
+      <div class="question">
+        <p>7. What number was the Apollo mission that successfully put a man on the moon for the first time in human history?  </p>
+        <label><input type="radio" name="q7" value="Apollo 11" required> Apollo 11 </label><br>
+        <label><input type="radio" name="q7" value="Apollo 12"> Apollo 12 </label><br>
+        <label><input type="radio" name="q7" value="Apollo 21"> Apollo 21</label>
+      </div>
+
+      <div class="question">
+        <p>8. The fear of insects is known as what? </p>
+        <label><input type="radio" name="q8" value="Entomophobia" required> Entomophobia </label><br>
+        <label><input type="radio" name="q8" value="Arachnophobia"> Arachnophobia </label><br>
+        <label><input type="radio" name="q8" value=" Ailurophobia"> Ailurophobia</label>
+      </div> 
+
+      <div class="question">
+        <p>9. Which app has the most total users? </p>
+        <label><input type="radio" name="q9" value="TikTok" required> TikTok </label><br>
+        <label><input type="radio" name="q9" value="Snapchat"> Snapchat </label><br>
+        <label><input type="radio" name="q9" value="Instagram"> Instagram</label>
+      </div> 
+
+      <div class="question">
+        <p>10. Where was tea invented? </p>
+        <label><input type="radio" name="q10" value="England" required> England </label><br>
+        <label><input type="radio" name="q10" value="China"> China </label><br>
+        <label><input type="radio" name="q10" value="Nepal"> Nepal</label>
+      </div> 
+
+      <a href="realresult.html" class="start-button">Submit Answers</a>
+
+    </form>
+  </main>
+</body>
+</html>
